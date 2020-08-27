@@ -1,0 +1,118 @@
+*{
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+    width: 100%; 
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+.item_cabecalho{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cabecalho img{
+    width: 18px;
+    height: 18px;
+}
+.cabecalho a{
+    text-decoration: none;
+}
+.cabecalho a:hover{
+    text-decoration: underline ;
+    color:#333;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4386FA ;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    color: #FFF;
+}
+.geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geral_logo{
+    margin-bottom: 30px;
+    width: 275px; 
+}
+.geral_busca{
+    display: flex;
+    border: 1px solid #DDD;
+    width: 550px;
+    height: 45px ;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.geral_busca:hover{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+.geral_busca img{
+    width: 18px; 
+    margin: 10px;
+}
+.botao button{
+    background-color: #F4F4F4;
+    border:1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+}
+.botao button:hover{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    color:#333;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+.footer-header{
+    border-top: 1px solid #DDD;
+    line-height: 40px;
+}
+.footer-header span{
+    margin-left: 30px;
+}
+span a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+span a:hover{
+    text-decoration: underline;
+}
+.footer-info{
+    border-top: 1px solid #DDD;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.footer-info .rightside{
+    margin-right: 30px;
+}
