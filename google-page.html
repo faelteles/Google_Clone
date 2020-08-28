@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charsert="UTF8"/>
-        <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/template_google.css"/>
 
         <title>Google</title>
 
@@ -13,7 +13,7 @@
                 <div class="cabecalho">
                     <div class="item_cabecalho"><a href="">Gmail</a></div>
                     <div class="item_cabecalho"><a href="">Imagens</a></div>
-                    <img class="item_cabecalho" src="assets/images/apps.png"/>
+                    <img class="item_cabecalho" src="assets/images/menu.png"/>
                     <div class="login item_cabecalho">Fazer login</div>
                 </div>
             </header>
@@ -24,13 +24,17 @@
         
                     <div class="geral_busca">
                         <img src="assets/images/search.png"/>
+                        <input type="text" maxlength="1024">
                         <img src="assets/images/mic.png"/>
                     </div>
 
-                    <div class="botao">
-                        <button>Pesquisa Google</button>
-                        <button>Estou com sorte</button>
+                    <div class="botao">                       
+                        <button onclick="window.location.href='search-page.html'">Pesquisa Google</button>
+                        <a href="https://www.google.com/doodles/">
+                            <button>Estou com sorte</button>
+                        </a>
                     </div>
+
                 </div>
             </section>
             

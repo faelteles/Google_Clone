@@ -3,10 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
+
 .container{
     margin: 0;
     flex-direction: column;
@@ -15,6 +17,7 @@ body{
     height: 100vh;
     width: 100%; 
 }
+
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -22,21 +25,26 @@ body{
     align-items: center;
     margin-right: 30px;
 }
+
 .item_cabecalho{
     margin-top: 20px;
     margin-left: 15px;
 }
+
 .cabecalho img{
     width: 18px;
     height: 18px;
 }
+
 .cabecalho a{
+  
     text-decoration: none;
 }
 .cabecalho a:hover{
     text-decoration: underline ;
     color:#333;
 }
+
 .login{
     display: flex;
     justify-content: center;
@@ -47,15 +55,18 @@ body{
     border-radius: 3px;
     color: #FFF;
 }
+
 .geral{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .geral_logo{
     margin-bottom: 30px;
     width: 275px; 
 }
+
 .geral_busca{
     display: flex;
     border: 1px solid #DDD;
@@ -66,13 +77,22 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
+
+.geral_busca input{
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
 .geral_busca:hover{
     box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
+
 .geral_busca img{
     width: 18px; 
     margin: 10px;
 }
+
 .botao button{
     background-color: #F4F4F4;
     border:1px solid #f2f2f2;
